@@ -1,0 +1,57 @@
+<RelativeLayout
+    android:id="@+id/what"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+
+    <Button
+
+        android:text="Mumbai"
+        android:textSize="22sp"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:onClick="onClick_Mumbai"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delhi"
+        android:onClick="onClick_Delhi"
+        android:id="@+id/button"
+        android:textSize="22sp"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <Button
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Chennai"
+    android:onClick="onClick_Chennai"
+    android:id="@+id/button2"
+    android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#Current#"
+        android:id="@+id/location"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/button2"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_toEndOf="@+id/button3" />
+
+
+
+</RelativeLayout>
